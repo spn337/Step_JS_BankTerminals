@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>PrivatBank's filials</title>
+</head>
+
+<body>
+    <section id="contact">
+        <div class="contact-header">
+            <div class="container">
+                <h1 class="row-element">PrivatBank</h1>
+                <h3 class="row-element">Informatin about PrivatBank terminals</h3>
+                <div class="row-element">
+                    <input type="text" class="city-input" placeholder="Enter the city">
+                    <button type="button" class="btn btn-success btn-search">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i> Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="root"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="map"></div>
+                </div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkF4g0rMU1lbvfqKLVqdXRa7CRrQAVWGw&callback=initMap"
+        async defer></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

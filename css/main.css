@@ -1,0 +1,62 @@
+#contact {
+    background: linear-gradient(to left, #d1f1d1, #ffffff);
+    color: rgb(114, 202, 79);
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    padding: 30px;
+    height: auto;
+
+}
+
+.row-element {
+    margin-bottom: 30px;
+}
+
+.contact-header h1 {
+    font-family: "Oleo Script", cursive;
+    text-shadow: 3px 3px 2px black;
+    font-size: 45px;
+}
+
+
+.city-input {
+    font-size: 1.3em;
+    color: black;
+    width: 75%;
+}
+
+.btn-search {
+    font-size: 1.3em;
+    padding: 2px 12px;
+    margin-left: 20px;
+}
+
+.tblTerminals {
+    color: black;
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    word-wrap: normal;
+}
+
+#root td {
+    border: 1px solid rgb(11, 110, 32);
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.tableError {
+    font-size: 1.7em;
+    color: red;
+}
+
+.btn-show_in_map {
+    padding: 3px;
+    margin: 10px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
